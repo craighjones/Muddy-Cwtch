@@ -154,7 +154,8 @@
             <h2>Get in touch to plan a ride</h2>
             <p></p>
             <div id="mc_embed_signup_scroll">
-              <form action="//muddycwtch.us9.list-manage.com/subscribe/post?u=b0ad1c5ce22d2b5541b87a807&amp;id=3bc265032f" class="pure-form validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+              <form id="contactform" action="https://formspree.io/f/xldrrkwv"
+              method="POST">
                 <div class="form-group">
                   <label for="NAME">Name</label>
                   <input type="text" class="form-control" iname="NAME" id="mce-NAME">
@@ -163,6 +164,11 @@
                   <label for="EMAIL">Email</label>
                   <input id="mce-EMAIL" name="EMAIL" type="email" class="form-control">
                 </div>
+
+                <input type="hidden" name="_next" value="confirmation.html">
+                <input type="hidden" name="_subject" value="Contact form">
+                <input type="text" name="_gotcha" style="display:none">
+                
                 <button type="submit" class="btn btn--primary"><i class="icon-paper-plane"></i> Submit</button>
                 <div class="clear" id="mce-responses">
                   <div class="response" id="mce-error-response" style="display:none"></div>
